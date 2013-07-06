@@ -2,8 +2,7 @@ doctype 5
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-    script(type='text/javascript', src='/javascripts/jquery.js')
-    script(type='text/javascript', src='/javascripts/underscore.js')
+    != css('application')
+    != js('application')
   body
     block content

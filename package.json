@@ -1,13 +1,17 @@
 {
-  "name": "application-name",
+  "name": "hello-world",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.3.2",
+    "coffee-script": "*",
+    "underscore": "*",
+    "fibers": "*",
+    "express": "*",
     "asset-rack": "*",
+    "snockets": "*",
     "jade": "*",
     "less-middleware": "*"
   }
